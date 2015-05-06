@@ -13,6 +13,6 @@
         </Directory>
         <Feature Id="DefaultFeature" Title="Main Feature" Level="1" />
         <UI />
-        <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." AllowSameVersionUpgrades="yes" />
+        <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
     </Product>
 </Wix>
